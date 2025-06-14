@@ -1,0 +1,80 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f9fa;
+  padding: 3rem 2rem;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* First Section (Logo + Description) */
+.firstSection {
+  margin-bottom: 2rem;
+}
+
+.logoSection {
+  max-width: 400px;
+}
+
+.logo {
+  height: 40px;
+  margin-bottom: 1rem;
+}
+
+.logoSection p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Second Section (Columns) */
+.secondSection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.footerColumn {
+  min-width: 150px;
+  flex: 1;
+}
+
+.footerColumn h3 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.footerColumn ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footerColumn li {
+  margin-bottom: 0.6rem;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #555;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.footerColumn li:hover {
+  color: #0070f3;
+}
+
+/* Copyright */
+.copyright {
+  background-color: #eaeaea;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 2rem;
+}
+
+

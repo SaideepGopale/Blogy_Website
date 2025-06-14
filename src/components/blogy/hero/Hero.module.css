@@ -1,0 +1,111 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.leftSide {
+  flex: 1;
+  padding: 30px 50px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.rightSide {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 40px 40px 40px;
+}
+
+.Container {
+  margin: 0 auto;
+  max-width: 1500px;
+  padding: 0;
+}
+
+.article {
+  font-size: 60px;
+  line-height: 1.2;
+  margin: 0 0 24px 0;
+}
+
+
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px; 
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.text input {
+  flex: 1;
+  padding: 20px 25px;
+  font-size: 24px;
+  border: 2px solid rgb(240, 240, 240);
+  border-right: none;
+  border-radius: 40px 0 0 40px;
+  background-color: rgb(240, 240, 240);
+  outline: none;
+  width: 100%;
+}
+
+.text input::placeholder {
+  color: rgb(100, 100, 100);
+}
+
+.button {
+  background-color: rgb(58, 57, 57);
+  color: white;
+  font-size: 24px;
+  padding: 20px 25px;
+  border: 2px solid rgb(240, 240, 240);
+  border-radius: 0 40px 40px 0;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+   transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  min-width: 150px;
+}
+
+.button:hover {
+  background-color: rgb(28, 28, 94);
+  transform: translateY(-1px) scale(1.03);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.h4 {
+  font-size: 20px;
+  padding: 16px 18px;
+  border-radius: 40px;
+  color: rgb(100, 100, 100);
+  
+}
+
+.heroImage {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.5s ease, box-shadow 0.4s ease, filter 0.5s ease;
+}
+
+.heroImage:hover {
+  transform: scale(1.03);
+  filter: brightness(1.05) contrast(1.1);
+}
