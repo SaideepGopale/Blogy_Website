@@ -7,7 +7,7 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* First Section (Logo + Description) */
+
 .firstSection {
   margin-bottom: 2rem;
 }
@@ -17,22 +17,27 @@
 }
 
 .logo {
-  height: 40px;
-  margin-bottom: 1rem;
+ height: 40px;
+  width: auto;
+  margin-left: 20px;
 }
 
 .logoSection p {
   font-size: 0.95rem;
   line-height: 1.6;
   color: #555;
+   margin-left: 20px;
 }
 
-/* Second Section (Columns) */
+
 .secondSection {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
-  justify-content: space-between;
+  justify-content: right;
+  max-width: 1500px;
+  margin-left: 160px;
+ 
 }
 
 .footerColumn {
@@ -67,14 +72,14 @@
   color: #0070f3;
 }
 
-/* Copyright */
+
 .copyright {
   background-color: #eaeaea;
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;
   color: #777;
-  margin-top: 2rem;
+
 }
 
 

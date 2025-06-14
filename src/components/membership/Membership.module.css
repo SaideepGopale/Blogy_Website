@@ -1,24 +1,24 @@
 .pricingContainer {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 40px;
   padding: 40px;
-  background-color: #f9f9f9;
+  /* background-color: #f9f9f9; */
   flex-wrap: wrap;
 }
 
 .card {
-  background: #fff;
-  border-radius: 20px;
-  padding: 20px;
-  width: 260px;
+  background: #fcf4f4;
+  border-radius: 20px 0px 20px 0px;
+  padding: 30px;
+  width: 300px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: transform 0.3s ease;
 }
 
 .card:hover {
-  transform: scale(1.05);
+  transform: scale(1.08);
 }
 
 .priceTag {

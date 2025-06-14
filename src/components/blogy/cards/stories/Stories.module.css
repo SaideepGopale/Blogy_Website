@@ -9,7 +9,7 @@
   scroll-behavior: smooth;
   box-sizing: border-box;
   overflow-x: auto;
-  padding: 0 60px;
+  padding: 0 48px;
   transition: overflow-x 0.3s ease;
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;

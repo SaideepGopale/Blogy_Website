@@ -1,7 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Styles from './Hero.module.css';
 
 function Hero() {
+    const [email, setEmail] = useState('');
+
+    const handleSubscribe = () => {
+        if (email.trim() !== '') {
+            alert('Subscribed successfully!');
+            // Optional: clear the input
+            // setEmail('');
+        } else {
+            alert('Please enter a valid email address.');
+        }
+    };
+
     return (
         <>
             <div className={Styles.wrapper}>
@@ -13,8 +25,16 @@ function Hero() {
 
                         <div className={Styles.input}>
                             <div className={Styles.text}>
-                                <input type="email" name="email" placeholder="Your email address" />
-                                <button className={Styles.button}>Subscribe</button>
+                                <input
+                                    type="email"
+                                    name="email"
+                                    placeholder="Your email address"
+                                    value={email}
+                                    onChange={(e) => setEmail(e.target.value)}
+                                />
+                                <button className={Styles.button} onClick={handleSubscribe}>
+                                    Subscribe
+                                </button>
                             </div>
 
                             <div className={Styles.h4}>
@@ -31,7 +51,6 @@ function Hero() {
                 </div>
             </div>
             <hr />
-
         </>
     );
 }

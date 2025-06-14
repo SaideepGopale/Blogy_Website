@@ -19,6 +19,7 @@
 .logo {
   height: 40px;
   width: auto;
+  margin-left: 20px;
 }
 
 
@@ -27,8 +28,8 @@
   align-items: center;
   list-style: none;
   gap: 1rem;
-  margin: 4px;
-  padding: 4px;
+  margin: 1px;
+  padding: 1px;
   
 }
 
@@ -37,7 +38,7 @@
   text-decoration: none;
   color:rgb(3, 3, 3);
   cursor: pointer;
-  font-size: 19px;
+  font-size: 20px;
   font-weight: 500;
   padding: 0.5rem;
   transition: color 0.3s ease;

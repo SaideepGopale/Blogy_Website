@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 60px;
-    padding: 30px 50px;
+    padding: 30px 20px;
 }
 
 
@@ -15,22 +15,22 @@
     border-top-right-radius: 0;
     border-bottom-left-radius: 0;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 1);
-    width: 300px;
-    padding: 20px;
+    width: 370px;
+    padding: 40px;
     box-sizing: border-box;
     text-align: left;
 }
 
 
 .title {
-    font-size: 2.8rem;
+    font-size: 4rem;
     font-weight: 500;
     color: #333;
-    margin-left: 90px;
+    margin-left: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 80px;
+    padding: 110px 48px;
     flex-wrap: wrap;
     gap: 20px;
 }
@@ -44,7 +44,7 @@
 .img {
 
     flex: 300px;
-    max-width: 400px;
+    max-width: 500px;
 }
 
 .img img {
